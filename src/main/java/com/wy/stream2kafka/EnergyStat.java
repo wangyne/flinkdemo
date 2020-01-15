@@ -58,6 +58,6 @@ public class EnergyStat {
  ;
         energyDetailDataStream.writeAsText("D:\\downloads\\file\\bb.txt",FileSystem.WriteMode.OVERWRITE).setParallelism(1);
 
-        env.execute("Tesss");
+        env.execute("EnergyStat");
     }
 }
